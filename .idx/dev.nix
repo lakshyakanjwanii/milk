@@ -26,38 +26,12 @@
       enable = true;
       previews = {
          web = {
-        #   # Example: run "npm run dev" with PORT set to IDX's defined port for previews,
-        #   # and show it in IDX's web preview panel
-           command = ["npm" "run" "dev"];
+           command = ["python3" "-m" "http.server" "$PORT"]; # Changed command
            manager = "web";
            env = {
-        #     # Environment variables to set for your server
-        nix
-    idx.previews = {
-      enable = true;
-      previews = {
-        web = {
-          command = [
-            "npm"
-            "run"
-            "start" # Replace with your actual start script
-            "--"
-            "--port"
-            "$PORT"
-            "--host"
-            "0.0.0.0"
-            "--disable-host-check" # Might be needed depending on your setup
-          ];
-          manager = "web";
-          env = {
-            PORT = "$PORT";
-          };
-        };
-      };
-    };
-     PORT = "$PORT";
-        #   };
-        # };
+             PORT = "$PORT";
+           };
+         };
       };
     };
 
