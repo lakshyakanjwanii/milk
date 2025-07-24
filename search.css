@@ -1,0 +1,110 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #203a43;
+    color: #333;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color: #203a43;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dropdowns {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .dropdowns select, .dropdowns button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .dropdowns button {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Venue cards */
+  .venue-section {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .venue-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .venue-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .venue-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-info h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .card-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .rating {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .book-btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background-color: #0055a5;
+  }
+  
