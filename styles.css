@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+    text-align: center;
+    padding: 4rem 2rem;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .venues {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .venue-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .venue-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 1rem;
+  }
+  
+  .venue-card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .testimonials {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  
+  footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
